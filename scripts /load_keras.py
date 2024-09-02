@@ -19,3 +19,4 @@ data_loader = datagen.flow_from_directory(
 
 # Check the number of images loaded
 print(f"Number of images loaded: {data_loader.samples}")
+#ata latthe placed
