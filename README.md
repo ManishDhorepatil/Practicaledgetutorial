@@ -1,5 +1,5 @@
 # Practicaledgetutorial
-##############wipro latthe - berger paints
+
 # Dataset Loading with Keras and PyTorch
 
 Welcome to this tutorial repository! You'll learn how to load datasets into Keras and PyTorch, and create training and testing splits.
