@@ -27,4 +27,3 @@ data_loader = DataLoader(
 
 # Check the number of images loaded
 print(f"Number of images loaded: {len(dataset)}")
-#ata latthe placed
