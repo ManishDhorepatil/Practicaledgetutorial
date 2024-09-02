@@ -3,7 +3,7 @@ import os
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Define the path to the dataset folder
-dataset_dir = os.path.join(os.path.dirname(_file_), '../Dataset')
+dataset_dir = os.path.join(os.path.dirname(__file__), '../Dataset')
 
 # Create an ImageDataGenerator instance with rescaling
 datagen = ImageDataGenerator(rescale=1.0/255.0)

@@ -4,7 +4,7 @@ from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 
 # Define the path to the Dataset folder
-dataset_dir = os.path.join(os.path.dirname(_file_), '../Dataset')
+dataset_dir = os.path.join(os.path.dirname(__file__), '../Dataset')
 
 # Define image transformations
 transform = transforms.Compose([
