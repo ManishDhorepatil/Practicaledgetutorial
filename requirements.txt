@@ -1,1 +1,6 @@
-
+tensorflow      # Required for Keras, adjust version if necessary
+torch            # Required for PyTorch, adjust version if necessary
+torchvision     # Required for PyTorch image transformations
+numpy           # Commonly used for numerical operations
+Pillow
+Keras
