@@ -21,6 +21,6 @@ jobs:
 
     - name: Run tests
       run: |
-        python scripts/load_dataset_keras.py
-        python scripts/load_dataset_pytorch.py
+        python scripts/load_keras.py
+        python scripts/load_pytorch.py
         python scripts/split_data.py
